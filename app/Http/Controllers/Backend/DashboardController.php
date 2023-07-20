@@ -12,7 +12,15 @@ class DashboardController extends Controller
      */
     public function adminDashboard()
     {
-        return view('backend.dashboard.admin_dashboard');
+        return view('backend.dashboard.layouts.admin_dashboard');
+    }
+    public function adminDashboard2()
+    {
+        return view('backend.dashboard.layouts.admin_dashboard2');
+    }
+    public function adminDashboard3()
+    {
+        return view('backend.dashboard.layouts.admin_dashboard3');
     }
 
     /**
